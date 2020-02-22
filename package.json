@@ -1,6 +1,6 @@
 {
   "name": "iview-area",
-  "version": "1.5.18",
+  "version": "1.6.0",
   "description": "An area-linkage-component bases on Vue and iView-UI components",
   "author": "Lison",
   "license": "MIT",
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/iview/iview-area#readme",
   "dependencies": {
-    "area-data": "^1.0.0",
+    "area-data": "git+https://github.com/Dawnzz/area-data.git",
     "iview": "^2.6.0",
     "vue": "^2.5.2"
   },
