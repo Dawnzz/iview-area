@@ -69,7 +69,7 @@
 </template>
 
 <script>
-import areaData from '../../area-data/pca';
+import areaData from '../../area-data/pcaa';
 import util from '../util';
 const areaLinkageArr = util.levelArr;
 const dataTypeArr = util.dataType;
