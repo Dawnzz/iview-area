@@ -19,7 +19,6 @@
   },
   "homepage": "https://github.com/iview/iview-area#readme",
   "dependencies": {
-    "area-data": "git+https://github.com/Dawnzz/area-data.git",
     "iview": "^2.6.0",
     "vue": "^2.5.2"
   },

@@ -2,7 +2,8 @@
     <div>
         <Row :gutter="gutterNum">
             <Col :span="span" v-if="show(0)">
-                <Select 
+                <Select
+                        clearable
                     ref="prov"
                     v-model="currPro"
                     @on-change="hasChange"
@@ -18,6 +19,7 @@
             </Col>
             <Col :span="span" v-if="show(1)">
                 <Select
+                        clearable
                     ref="city"
                     v-model="currCit"
                     @on-change="hasChange"
@@ -67,7 +69,7 @@
 </template>
 
 <script>
-import areaData from 'area-data/areaData';
+import areaData from '../../area-data/pca';
 import util from '../util';
 const areaLinkageArr = util.levelArr;
 const dataTypeArr = util.dataType;
